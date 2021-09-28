@@ -7,5 +7,5 @@ class NewsArticle:
     title: str = ''
     content: str = ''
     source: str = ''
-    published: datetime.datetime = datetime.datetime.now
-    sentiment: str = ''
+    published: datetime.datetime = datetime.datetime.now()
+    jobid: str = ''
